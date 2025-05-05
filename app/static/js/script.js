@@ -6,6 +6,7 @@ async function getJson(file_name) {
 
 async function AiResponse() {
     userInput = document.getElementById('prompt').value;
+    document.getElementById('prompt').disabled = true;
     document.getElementById('prompt').value = '' 
     addMessages()
     
@@ -20,6 +21,8 @@ async function AiResponse() {
     AI_RESPONSE = await response.json();
     await passAiMessage();
     passAiFunctions();
+
+    document.getElementById('prompt').disabled = false;
 }
 
 function addMessages() {
