@@ -1,0 +1,11 @@
+{
+    "about": ["Sobre","User wants to know more about the company or dought or question relating Furia", "https://pt.wikipedia.org/wiki/Furia_Esports"],
+    "news": ["Notícias","User wants to know about the news", "https://www.google.com/search?q=Furiagg&tbm=nws"],
+    "store": ["Loja","User wants to know about the store", "https://www.furia.gg"],
+    "teams": ["Equipes","User wants to know about the Furia teams", "https://prosettings.net/teams/furia/"],
+    "instagram": ["Instagram","User wants to know about the Furia Instagram or get in touch", "https://www.instagram.com/furiagg/"],
+    "twitter": ["Twitter","User wants to know about the Furia Twitter or get in touch", "https://x.com/FURIA"],
+
+    "openIssue": ["Abrir reclamação","User wants to open an issue relating to a error in this chat", "https://github.com/GTazz/FURIA-tech-test/issues"],
+    "error": ["Recarregue a página", "", ""]
+}

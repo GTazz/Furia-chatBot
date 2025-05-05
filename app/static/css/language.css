@@ -1,0 +1,14 @@
+/*-----Portuguese-----*/
+:root[lang="pt-BR"] {
+  --txtAiMessage: "Eae, qual a sua dúvida?";
+  --txtSubmitButton: "Enviar";
+}
+
+/*-----English-----*/
+:root[lang="en"] {
+  --txtAiMessage: "Hey, what do you need?";
+  --txtSubmitButton: "Submit";
+}
+
+.submit::after {content: var(--txtSubmitButton)}
+.ai-first-message::after {content: var(--txtAiMessage)}

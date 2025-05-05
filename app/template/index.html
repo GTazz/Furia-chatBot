@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furia IA</title>
+  <link rel="stylesheet" href="../static/css/style.css" type="text/css" />
+  <!-- <link rel="stylesheet" href="../static/css/language.css" type="text/css"/> -->
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="logo">
+      <img src="../static/img/logoFuria.png" alt="Logo">
+    </div>
+    <div class="box">
+      <div class="item">
+        <div class="icon">
+          <img src="../static/icon/user-icon.png" alt="User Icon">
+        </div>
+        <div class="msg">
+          <p class="ai-first-message">Eae, qual a sua dúvida?</p>
+        </div>
+        <!-- Dynamic chat -->
+        </div>
+      </div>
+      <div class="responseItem">
+        <!-- Dynamic buttons -->
+      </div>
+      <div class="typing-area">
+        <div class="input-field">
+          <form onsubmit="AiResponse(); return false;">
+            <input id="prompt" type="text" placeholder="Digite sua dúvida..." required>
+            <button class="submit" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <!-- <div class="dropdown">
+        <button class="dropdownButton">
+          <img src="../static/icon/language.ico" alt="Language Icon">
+        </button>
+        <div class="dropdown-options">
+          <a onclick="selectLang('pt-BR')"><img src="../static/icon/brasil.png" alt="Brazil Icon"></a>
+          <a onclick="selectLang('en')"><img src="../static/icon/estados-unidos.png" alt="EUA Icon"></a>
+        </div>
+      </div> -->
+      <!--  Not implemented yet
+      <div class="dropdown">
+        <button class="dropdownButton">
+          <img src="../static/icon/ia.png" alt="IA Icon">
+        </button>
+        <div class="dropdown-options">
+          <a onclick="changePersona('pantera')"><img src="../static/icon/user-icon.png" alt="Furia Icon"></a>
+          <a onclick="changePersona('fallen')"><img class="badFallen" src="../static/icon/bad-fallen.jpg" alt="Bad Fallen Image"></a>
+        </div>
+      </div>
+      -->
+      <a href="https://github.com/GTazz/FURIA-tech-test" target="_blank">
+        <img src="../static/icon/git-hub.png" alt="GitHub Icon">
+      </a>
+      <a href="http://www.linkedin.com/in/gabriel-tazz" target="_blank">
+        <img src="../static/icon/linkedin.ico" alt="Linkedin Icon">
+      </a>
+    </div>
+</body>
+
+</html>
+<script src="../static/js/script.js"></script>
