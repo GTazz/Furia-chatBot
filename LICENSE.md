@@ -1,9 +1,9 @@
-## License
+## Licença
 
-This project was developed as part of a technical hiring process.
+Este projeto foi desenvolvido como parte de um processo de contratação técnica.
 
-All rights reserved.
+Todos os direitos reservados.
 
-The source code is made publicly visible for evaluation purposes only.  
-Any form of copying, reuse, distribution, or modification is strictly prohibited  
-without prior written consent from the author.
+O código-fonte é disponibilizado publicamente apenas para fins de avaliação.  
+Qualquer forma de cópia, reutilização, distribuição ou modificação é estritamente proibida  
+sem o consentimento prévio por escrito do autor.
